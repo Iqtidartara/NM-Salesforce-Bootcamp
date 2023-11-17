@@ -61,7 +61,7 @@ Certification  </h1>
             />
             <h1 className="text-[1.25rem] leading-normal font-[600] text-[#000]">Elevated Job Fulfillment  <br/>Discovering </h1>
             <p className="text-[#646464] text-[1.125rem] font-[400] leading-normal">
-            Salesforce can lead to an exciting career change with great pay. In the USA&apos; Salesforce developers earn around $140,000 on average. The cool part? You can do this job from home! So&apos; if you&apos;re thinking about a career shift&apos; learning Salesforce could be your ticket to a well-paying job that lets you work remotely. Ready to explore and transform your career path? Jump into Salesforce!
+            Salesforce can lead to an exciting career change with great pay. In the USA&apos; Salesforce developers earn around $140&apos;000 on average. The cool part? You can do this job from home! So&apos; if you&apos;re thinking about a career shift&apos; learning Salesforce could be your ticket to a well-paying job that lets you work remotely. Ready to explore and transform your career path? Jump into Salesforce!
               instantly.
             </p>
           </div>
