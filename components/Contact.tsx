@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
                   <Button
                     type="submit"
                     disabled={isLoading}
-                    className="text-white w-full md:w-auto text-center text-base font-semibold leading-6 tracking-tight bg-cyan-500 px-10 max-w-full mt-10 mb-12  py-7 rounded-lg self-start"
+                    className='bg-[#00D1FF] rounded-[3rem] text-[1rem] md:text-[1.25rem] text-[#FFF] md:px-[30px] md:py-[30px] px-[15px] py-[20px] ml-2'
                   >
                     {
                         isLoading ? "Sending" : "Contact"

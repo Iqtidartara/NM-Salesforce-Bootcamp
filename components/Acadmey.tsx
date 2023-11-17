@@ -40,20 +40,14 @@ const Acadmey = () => {
             <Image
               src="/Badge.png"
               alt="reo"
-              width={52}
+              width={52}    
               height={52}
               className="w-fit"
             />
-            <h1 className="text-[1.25rem] leading-normal font-[600] text-[#000]">Achieve Salesforce <br/>
+            <h1 className="text-[1.25rem] leading-normal font-[600] text-[#000]">Achieve Salesforce
 Certification  </h1>
             <p className="text-[#646464] text-[1.125rem] font-[400] leading-normal">
-              Our Salesforce Administration and Developer curricula are crafted
-              by industry experts. Throughout your bootcamp experience, you&apos;ll
-              engage in numerous projects, ensuring you&apos;re well-prepared for
-              your initial role in Salesforce. These projects simulate
-              real-world scenarios, and you&apos;ll collaborate in groups with our
-              instructors ready to assist you in resolving any challenges
-              instantly.
+            Our bootcamp is designed to empower individuals with the knowledge required to successfully pass both the Salesforce Administration and Developer exams. In addition to our exceptional curriculum, Salesforce Trailheads provide the essential skills needed for exam success. Once certified, you can maintain your certifications through the upkeep modules available on Trailheads.
             </p>
           </div>
 
@@ -67,12 +61,7 @@ Certification  </h1>
             />
             <h1 className="text-[1.25rem] leading-normal font-[600] text-[#000]">Elevated Job Fulfillment  <br/>Discovering </h1>
             <p className="text-[#646464] text-[1.125rem] font-[400] leading-normal">
-              Our Salesforce Administration and Developer curricula are crafted
-              by industry experts. Throughout your bootcamp experience, you&apos;ll
-              engage in numerous projects, ensuring you&apos;re well-prepared for
-              your initial role in Salesforce. These projects simulate
-              real-world scenarios, and you&apos;ll collaborate in groups with our
-              instructors ready to assist you in resolving any challenges
+            Salesforce can lead to an exciting career change with great pay. In the USA, Salesforce developers earn around $140,000 on average. The cool part? You can do this job from home! So, if you're thinking about a career shift, learning Salesforce could be your ticket to a well-paying job that lets you work remotely. Ready to explore and transform your career path? Jump into Salesforce!
               instantly.
             </p>
           </div>
