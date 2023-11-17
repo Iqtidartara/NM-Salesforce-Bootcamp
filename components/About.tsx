@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "./ui/button";
 import Image from "next/image";
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -19,10 +20,14 @@ const About = () => {
             We run this bootcamp, combining our expertise to provide participants <b className="hidden md:block" /> with a well-rounded and enriching learning experience in Salesforce 
             <b className="hidden md:block" /> administration. Our trainers have around 8 years experience on different <b className="hidden md:block" /> cloud. Ie. Sales Cloud, Service Cloud, Marketing Cloud. Omnistudio, <b className="hidden md:block" /> Experience Clouds etc.
             </p>
+            <Link
+            href='#contactForm'
+            >
             <Button
               className="bg-[#00D1FF] rounded-[3rem] text-[1.25rem] text-[#FFF] px-[20px] py-[30px]" >
               Enroll Now
             </Button>
+            </Link>
           </div>
          
         </div>
