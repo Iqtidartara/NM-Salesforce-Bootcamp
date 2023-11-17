@@ -27,10 +27,10 @@ const Acadmey = () => {
             <h1 className="text-[1.25rem] leading-normal font-[600] text-[#000]">Hands-on Projects Guided by Experts </h1>
             <p className="text-[#646464] text-[1.125rem] font-[400] leading-normal">
               Our Salesforce Administration and Developer curricula are crafted
-              by industry experts. Throughout your bootcamp experience, you&apos;ll
-              engage in numerous projects, ensuring you&apos;re well-prepared for
+              by industry experts. Throughout your bootcamp experience&apos; you&apos;ll
+              engage in numerous projects&apos; ensuring you&apos;re well-prepared for
               your initial role in Salesforce. These projects simulate
-              real-world scenarios, and you&apos;ll collaborate in groups with our
+              real-world scenarios&apos; and you&apos;ll collaborate in groups with our
               instructors ready to assist you in resolving any challenges
               instantly.
             </p>
@@ -61,7 +61,7 @@ Certification  </h1>
             />
             <h1 className="text-[1.25rem] leading-normal font-[600] text-[#000]">Elevated Job Fulfillment  <br/>Discovering </h1>
             <p className="text-[#646464] text-[1.125rem] font-[400] leading-normal">
-            Salesforce can lead to an exciting career change with great pay. In the USA&apos; Salesforce developers earn around $140,000 on average. The cool part? You can do this job from home! So&apos; if you're thinking about a career shift&apos; learning Salesforce could be your ticket to a well-paying job that lets you work remotely. Ready to explore and transform your career path? Jump into Salesforce!
+            Salesforce can lead to an exciting career change with great pay. In the USA&apos; Salesforce developers earn around $140,000 on average. The cool part? You can do this job from home! So&apos; if you&apos;re thinking about a career shift&apos; learning Salesforce could be your ticket to a well-paying job that lets you work remotely. Ready to explore and transform your career path? Jump into Salesforce!
               instantly.
             </p>
           </div>
