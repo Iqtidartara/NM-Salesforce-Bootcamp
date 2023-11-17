@@ -34,6 +34,8 @@ const Acadmey = () => {
               instructors ready to assist you in resolving any challenges
               instantly.
             </p>
+
+            
           </div>
 
           <div className="acadmeyshadow  flex flex-col items-start gap-[0.88rem] py-5 px-9">
