@@ -14,7 +14,7 @@ const HomeSection = () => {
             </h1>
             <p className="text-[#646464] text-[1rem] md:text-[1.25rem] font-[400] leading-normal">
               Elevate your future with our educational resources and <b className="hidden md:block" /> support,
-              making success a reality
+              making success a reality.
             </p>
             <Link
             href='#contactForm'
