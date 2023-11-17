@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
                   <span className="text-[#00D1FF]">Contact Us</span>
                 </div>
                 <div className="text-slate-400 text-[1rem] md:text-[1.25rem] leading-[160%] mt-6">
-                  To contact us, fill out the form below and we'll get back to
+                  To contact us, fill out the form below and we&apos;ll get back to
                   you within 24 hours.
                 </div>
                 <form onSubmit={handleSubmit} className="mt-6" >

@@ -55,13 +55,13 @@ const Pakages = () => {
     <main className="max-w-[80rem] mx-auto px-6 py-[100px]">
       <div className='text-center'>
       <h1 className=" text-[2rem] md:text-[3rem] font-[700] text-[#000] leading-normal">
-      You'll get below things in the  <span className="text-[#00D1FF]">package:</span>
+      You&apos;ll get below things in the  <span className="text-[#00D1FF]">package:</span>
             </h1>
       </div>
     <div className='justify-center items-center content-center flex flex-wrap gap-10 mt-[3.5rem]'>
       {
-        pakages.map((items)=>(
-          <div className='flex items-center gap-[1.25rem]  rounded-[16px]  bg-[#FFF] px-[1.375rem] py-[1.125rem] w-[333px] h-[5.875rem] '>
+        pakages.map((items ,index)=>(
+          <div key={index} className='flex items-center gap-[1.25rem]  rounded-[16px]  bg-[#FFF] px-[1.375rem] py-[1.125rem] w-[333px] h-[5.875rem] '>
         <Image src={items.imgUrl}  alt='as' width={34} height={34}/>
         <h2 className='text-[18px] font-[500] leading-[160%]'>{items.title}</h2>
       </div>
