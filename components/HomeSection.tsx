@@ -10,7 +10,7 @@ const HomeSection = () => {
         <div className="flex items-center flex-col md:flex-row justify-between">
           <div className="flex flex-col items-start gap-[1.25rem]">
             <h1 className=" text-[2rem] md:text-[3rem] font-[700] text-[#000] leading-normal">
-              NM Salesforce Developer <b className="hidden md:block" /> <span className="text-[#00D1FF]">Bootcamp</span>(SDB){" "}
+              NM Salesforce Developer <b className="hidden md:block" /> <span className="text-[#00D1FF]">Bootcamp</span>{" "}
             </h1>
             <p className="text-[#646464] text-[1rem] md:text-[1.25rem] font-[400] leading-normal">
               Elevate your future with our educational resources and <b className="hidden md:block" /> support,

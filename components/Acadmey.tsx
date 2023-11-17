@@ -8,7 +8,7 @@ const Acadmey = () => {
         <div className="text-center">
           <h1 className=" text-[1.5rem] md:text-[3rem] font-[700] text-[#000] leading-normal">
             Benefits of NM{" "}
-            <span className="text-[#00D1FF]">Salesforce Academy</span>
+            <span className="text-[#00D1FF]">Salesforce Bootcamp</span>
           </h1>
           <p className="text-[#646464] text-[1rem] md:text-[1.125rem] leading-normal font-[400]">
             Top-notch instructors have crafted the most inspiring learning
