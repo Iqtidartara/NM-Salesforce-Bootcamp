@@ -29,7 +29,7 @@ const About = () => {
               Marketing Cloud. Omnistudio, Experience Clouds etc.
             </p>
             <Link href="#contactForm">
-              <Button className="bg-[#00D1FF] rounded-[3rem] text-[1.25rem] text-[#FFF] px-[20px] py-[30px]">
+              <Button className="bg-[#00D1FF] rounded-[3rem] text-[1.25rem] text-[#FFF] px-8 py-[30px]">
                 Enroll Now
               </Button>
             </Link>

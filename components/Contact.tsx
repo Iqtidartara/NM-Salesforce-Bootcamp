@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 
-import toast from 'react-hot-toast';
+import toast from "react-hot-toast";
 
 interface FormState {
   name: string;
@@ -13,7 +13,7 @@ interface FormState {
 
 const Contact: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
-  
+
   const [formData, setFormData] = useState<FormState>({
     name: "",
     email: "",
@@ -24,13 +24,17 @@ const Contact: React.FC = () => {
     setFormData((prevData) => ({ ...prevData, [field]: value }));
   };
   const isFormValid = () => {
-    return formData.name.trim() !== "" && formData.email.trim() !== "" && formData.phoneNumber.trim() !== "";
+    return (
+      formData.name.trim() !== "" &&
+      formData.email.trim() !== "" &&
+      formData.phoneNumber.trim() !== ""
+    );
   };
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!isFormValid()) {
-      toast.error('Please fill out all fields.');
+      toast.error("Please fill out all fields.");
       return;
     }
 
@@ -50,19 +54,18 @@ const Contact: React.FC = () => {
       if (response.ok) {
         console.log("Email sent successfully:", data.message);
         setFormData({ name: "", email: "", phoneNumber: "" });
-        toast.success('Form Submitted.');
+        toast.success("Form Submitted.");
       } else {
         console.log("Error sending email:", data.message);
-        toast.error('Error submitting form. Please try again later.');
+        toast.error("Error submitting form. Please try again later.");
       }
     } catch (error) {
       console.error("Error:", error);
-      toast.error('Something went wrong. Check your details and try again.');
+      toast.error("Something went wrong. Check your details and try again.");
     } finally {
       setIsLoading(false);
     }
   };
-
 
   return (
     <section id="contactForm" className="w-full">
@@ -75,10 +78,10 @@ const Contact: React.FC = () => {
                   <span className="text-[#00D1FF]">Contact Us</span>
                 </div>
                 <div className="text-slate-400 text-[1rem] md:text-[1.25rem] leading-[160%] mt-6">
-                  To contact us, fill out the form below and we&apos;ll get back to
-                  you within 24 hours.
+                  To contact us, fill out the form below and we&apos;ll get back
+                  to you within 24 hours.
                 </div>
-                <form onSubmit={handleSubmit} className="mt-6" >
+                <form onSubmit={handleSubmit} className="mt-6">
                   <label className="text-[#02044A] text-[1rem] leading-[150%] font-[400] tracking-[-0.02rem] whitespace-nowrap">
                     Your Name
                   </label>
@@ -111,11 +114,9 @@ const Contact: React.FC = () => {
                   <Button
                     type="submit"
                     disabled={isLoading}
-                    className='bg-[#00D1FF] rounded-[3rem] text-[1rem] md:text-[1.25rem] text-[#FFF] md:px-[30px] md:py-[30px] px-[15px] py-[20px] ml-2'
+                    className="bg-[#00D1FF] rounded-[3rem] text-[1rem] md:text-[1.25rem] text-[#FFF] md:px-[30px] md:py-8 px-[15px] py-8 ml-2"
                   >
-                    {
-                        isLoading ? "Sending" : "Contact"
-                    }
+                    {isLoading ? "Sending" : "Contact"}
                   </Button>
                 </form>
               </div>

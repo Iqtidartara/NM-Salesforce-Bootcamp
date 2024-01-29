@@ -29,7 +29,7 @@ const Demo = () => {
           <Link
             href='#contactForm'
             >
-            <Button className="bg-[#00D1FF] rounded-[3rem] text-[1rem] md:text-[1.25rem] text-[#FFF] md:px-[20px] md:py-[30px] px-[15px] py-[20px] ml-2">
+            <Button className="bg-[#00D1FF] rounded-[3rem] text-[1rem] md:text-[1.25rem] text-[#FFF] md:px-[20px] md:py-8 px-[15px] py-[20px] ml-2">
               Enroll Now
             </Button>
             </Link>
